@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- [Head content remains the same] -->
+</head>
+
+<body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <!-- [Header content remains the same] -->
+    </header>
+
+    <main class="main">
+        <section id="hero" class="hero section accent-background">
+            <!-- [Hero content remains the same] -->
+
+            <!-- Add audio player for background music -->
+            <audio id="background-music" loop>
+                <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button onclick="document.getElementById('background-music').play()">Play Background Music</button>
+        </section>
+
+        <section id="about" class="about section">
+            <!-- [About content remains the same] -->
+
+            <!-- Add audio for the about section -->
+            <audio id="about-audio">
+                <source src="assets/audio/about-description.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button onclick="document.getElementById('about-audio').play()">Play About Description</button>
+        </section>
+
+        <section id="portfolio" class="portfolio section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Explore my multimedia projects.</p>
+            </div>
+            <div class="container">
+                <!-- Add your portfolio items here -->
+                <!-- Example portfolio item with audio -->
+                <div class="portfolio-item">
+                    <img src="assets/img/portfolio/project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <audio controls>
+                        <source src="assets/audio/project1-description.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <!-- Repeat for more portfolio items -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Get in touch with me</p>
+            </div>
+            <div class="container">
+                <!-- Add your contact form or information here -->
+
+                <!-- Add audio for contact information -->
+                <audio id="contact-audio">
+                    <source src="assets/audio/contact-info.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <button onclick="document.getElementById('contact-audio').play()">Play Contact Information</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <!-- [Footer content remains the same] -->
+    </footer>
+
+    <!-- [Scripts remain the same] -->
+
+</body>
+
+</html>

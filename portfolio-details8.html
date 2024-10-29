@@ -39,7 +39,7 @@
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center sticky-top">
+    <header id="header" class="header d-flex align-items-center sticky-top" style="background-color: #CBBAB2;">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             <a href="index.html" class="logo d-flex align-items-center">
@@ -63,96 +63,191 @@
         </div>
     </header>
     <main class="main">
+        <section id="video" class="video section">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Video</h2>
+                    <p>Projet Kigo</p>
+                </div>
 
-        <!-- Page Title -->
-        <div class="page-title" data-aos="fade">
-            <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
-                <nav class="breadcrumbs">
-                    <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="current">Portfolio Details</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- End Page Title -->
-
-        <main class="main">
-            <!-- [Other sections remain the same] -->
-
-            <!-- Video Section -->
-            <section id="video" class="video section">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Video</h2>
-                        <p>Projet de réalité virtuelle</p>
-                    </div>
-
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <div class="video-container">
-                                <video id="myVideo" controls width="100%">
-                                    <source src="assets/img/son/documentation_video 1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="video-description mt-4">
-                                <h3>Nuit d'hiver</h3>
-                                <p>Projet 3D dont j'ai eu la chance de pouvoir participer, mon ancien compte est encore relié au projet c'est un projet 3D VR ou l'utilisateur joue le père noël et donne des cadeaux dans les maisons.Dans ce projet j'ai fait
-                                    le panneau d'introduction du jeu avec les directives et les boutons,j'ai aussi fait l'effet de neige et j'ai fais la table qui se retrouve dans la maison</p>
-                            </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="video-container">
+                            <video id="myVideo" controls width="100%">
+                                <source src="assets/img/son/documentation_video 1 (1).mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-description mt-4">
+                            <h3>Kigo</h3>
+                            <p>Projet intitulé Kigo il s'aggit du projet de fin de session, dans ce projet j'étais le coordinateur artistique et je m'occupais de la musique et des effets sonores, j'ai aussi aidé a l'installation dans le studio</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- [Other sections remain the same] -->
-        </main>
 
-        <footer id="footer" class="footer accent-background">
 
-            <div class="container">
-                <div class="copyright text-center ">
-                    <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="portfolio-details" class="portfolio-details section">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="portfolio-details-slider swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "navigation": {
+                                "nextEl": ".swiper-button-next",
+                                "prevEl": ".swiper-button-prev"
+                            },
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper align-items-center">
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/portfolio/kigo.png" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/portfolio/kigo1.jpg" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/portfolio/kigo2.jpg" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/img/portfolio/kigo3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/portfolio/kigo4.jpg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="social-links d-flex justify-content-center">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+
+                <div class="row justify-content-between gy-4 mt-4">
+
+
+
+
                 </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you've purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
+
             </div>
 
-        </footer>
+        </section>
 
-        <!-- Scroll Top -->
-        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Page Title -->
 
-        <!-- Preloader -->
-        <div id="preloader"></div>
+        <!-- End Page Title -->
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/typed.js/typed.umd.js"></script>
-        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-        <!-- Main JS File -->
-        <script src="assets/js/main.js"></script>
+        <!-- [Other sections remain the same] -->
+
+        <!-- Video Section -->
+
+
+        <!-- [Other sections remain the same] -->
+    </main>
+
+    <footer id="footer" class="footer accent-background" style="background-color: #CBBAB2;">
+        <div class="container">
+            <div class="copyright text-center" style="display: none;">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h3 class="text-center">Gabriel Clerval</h3>
+                    <p class="text-center">Étudiant en Techniques d'intégration multimédia</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h4 class="text-center">Liens rapides</h4>
+                    <ul class="list-unstyled text-center">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h4 class="text-center">Suivez-moi</h4>
+                    <div class="social-links d-flex justify-content-center">
+
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright text-center">
+                        <p>&copy; 2024 Gabriel Clerval. Tous droits réservés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
